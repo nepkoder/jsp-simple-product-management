@@ -4,16 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Header section for pages</title>
 </head>
 <body>
-
-<h2>Welcome !!</h2>
-<%
-String username = (String)session.getAttribute("username");
-%>
-<h2>Product Management System</h2>
-<h3>Welcome <%= username %> !!</h3>
 
 </body>
 </html>

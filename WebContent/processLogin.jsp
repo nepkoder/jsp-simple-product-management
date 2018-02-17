@@ -8,7 +8,7 @@ String password = request.getParameter("password");
 
 if(LoginDAO.isValidUser(new LoginInfo(username,password))) {
 	
-	session.setAttribute("uName", username);
+	session.setAttribute("username", username);
 	session.setMaxInactiveInterval(200);
 	response.sendRedirect("home.jsp");
 } else {

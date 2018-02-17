@@ -5,20 +5,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Login Page</title>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<h2>Enter your information</h2>
 
-<form action="processLogin.jsp" method="post">
+<div id="loginbox" class="jumbotron">
+<p>Account Login</p>
+<div class="form-group">
+<form action="processLogin.jsp" method="POST">
 
 <label>Username</label>
-<input type="text" value="" name="username">
-
+<input type="text" class="form-control" placeholder="Username" value="">
 <label>Password</label>
-<input type="password" value="" name="password">
-<button type="submit" >Login</button>
-
+<input type="password" class="form-control" placeholder="Password" value="" >
 </form>
+<button class="btn btn-primary loginbtn"><a href="login.jsp">Login</a></button>
+</div>
+
+</div>
 
 </body>
 </html>

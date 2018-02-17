@@ -11,14 +11,17 @@ public class DBUtil {
 		String user = "root";
 		String pass = "sujan";
 		
+		String driver = "com.mysql.jdbc.Driver";
+		
 		Connection con = null;
 		
 		try {
+			Class.forName(driver);
 			con = DriverManager.getConnection(dbURL,user,pass);
 			
 			System.out.println("Connection successful");
 			
-		} catch (SQLException e) {
+		} catch (SQLException | ClassNotFoundException e) {
 			// TODO: handle exception
 			e.getMessage();
 			e.printStackTrace();

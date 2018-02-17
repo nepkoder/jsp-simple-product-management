@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: none;
+	font-family: 'ubuntu';
+}
+
+p {
+	font-size: 18px;
+		text-decoration: none;
+}
+
+#loginbox {
+	width: 350px;
+	height: 350px;
+	margin: 100px auto;
+}
+
+.jumbotron p {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.form-group {
+	margin: 40px 30px 0px 30px; 
+	
+}
+.form-group label {
+	display: none;
+}
+
+.form-group input {
+	margin-top: 20px;
+	border-radius: 0;
+	box-shadow: none;
+	color: inherit;
+}
+
+.loginbtn {
+	margin-top: 18px;
+	text-align: center;
+	margin-bottom: 0;
+	color: black;
+	border-radius: 0;
+	background: transparent;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.loginbtn:hover,
+.loginbtn:focus,
+.loginbtn.visited {
+	color: red;
+	background-color: black;
+	text-decoration: none;
+	border: none;
+	
+}
+
+
